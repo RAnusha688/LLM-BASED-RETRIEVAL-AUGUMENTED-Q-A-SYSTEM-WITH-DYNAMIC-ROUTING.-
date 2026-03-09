@@ -22,6 +22,7 @@ This project is a Retrieval-Augmented Generation (RAG) AI agent that answers use
 ## 🧠 About the Project
 
 This project is a Retrieval-Augmented Generation (RAG) AI agent that answers user questions by combining LLM capabilities with document context. It retrieves relevant information from uploaded documents and generates accurate, context-aware responses. The system is designed to demonstrate practical GenAI integration, backend API development, and Docker-based deployment.
+
 ---
 
 ## 📂 Dataset
