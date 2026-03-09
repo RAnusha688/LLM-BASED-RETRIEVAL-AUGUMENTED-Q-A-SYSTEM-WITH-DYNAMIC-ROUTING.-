@@ -44,17 +44,17 @@ Embeddings are generated from uploaded documents to allow semantic search for re
 
 ## 🧠 Model Architecture
 
-1.Document Embedding Generation:
-Documents are converted into vector embeddings using a pre-trained SentenceTransformer model.
-
-2.Vector Search:
-Queries are matched against document embeddings using FAISS to find the most relevant chunks.
-
-3.LLM Question Answering:
-The retrieved chunks are passed to an LLM (via API) to generate precise and contextually accurate answers.
-
-4.API Layer:
-FastAPI serves as the backend, allowing users to send queries and receive answers in real-time.
+Documents
+   ↓
+SentenceTransformer embeddings
+   ↓
+FAISS vector search
+   ↓
+Retrieve relevant documents
+   ↓
+Send context to LLM (OpenAI/OpenRouter)
+   ↓
+Generate final answer
 
 ## 📁 Project Structure
 genai-ai-agent/
